@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lucida Console";
+    text-align: center;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:#ffbf00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: white;
+    padding: 36px 10px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    padding: 36px 10px;
+    margin: 0 1 px;
+    font-weight: 700;
+}
+nav a:hover{
+    background: black;
+    color: #ffbf00;
+}
+.banner-area{
+    background-image: url(banner.jpg);
+    background-color: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner-area:after{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: white;
+}
+.banner-area p{
+    color: white;
+    font-size: 40px;
+}
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: white;
+    top: 550px;
+}
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+.content-area p{
+    padding: 25 0;
+    line-height: 30px;
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+ul li {
+    text-align: center;
+}
+#discord{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+hr{
+    margin: 20px 0px;
+    border-top: 10px solid #ffbf00;
+    width: 100%;
+    float: center;
+}
+.image-container{
+    float: center;
+}
